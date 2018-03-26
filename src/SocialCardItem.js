@@ -4,7 +4,7 @@ class SocialCardItem extends Component {
   render() {
     const {name, website, color, about, imgUrl} = this.props;
     const boxStyle = {
-    width: '320px',
+    width: '45%',
     height: '300px',
     display: 'flex',
     flexDirection: 'column',
@@ -12,7 +12,6 @@ class SocialCardItem extends Component {
     alignItems: 'center',
     backgroundColor: color,
     border: "10px solid red",
-    width: '400px'
   }
     return(
       <div style={boxStyle} className="social-card-item">

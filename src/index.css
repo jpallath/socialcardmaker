@@ -29,3 +29,8 @@
 .social-card-item img{
   width: 30%;
 }
+
+.social-card-item p{
+  word-wrap: break-word;
+  width: 350px;
+}
